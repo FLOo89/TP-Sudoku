@@ -1,4 +1,6 @@
-﻿
+﻿using System;
+using ORToolsSolver; 
+
 
 namespace Benchmark
 {
@@ -6,6 +8,9 @@ namespace Benchmark
     {
         static void Main(string[] args)
         {
+            OrToolsSolver or = new OrToolsSolver();
+
+
         }
 
     }

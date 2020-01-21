@@ -21,6 +21,7 @@ namespace ORToolsSolver
                 tab_s[i] = new IntVar[9];
             }
 
+            // variables creation
             for(int i = 0; i<tab_s.Length; i++)
             {
                 for(int j = 0; j<tab_s[i].Length; j++)
